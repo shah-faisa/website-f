@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+
+
+}
+
+body {
+
+ background: url(vvvvv.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+}
+@media(max-width:480px){
+    ul{
+        flex-direction: column;
+    }
+    img{
+        width: 100px;
+    }
+    .main-heading{
+        width: 95px;
+    }
+}
+
+.logo{
+    
+    color: rgb(8, 8, 8);
+    font-size: 40px;
+    padding-left: 60px;
+    float: left;
+    padding-top: 20px;
+}
+
+
+.menu {
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+
+ul {
+    float: left;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    color: rgb(10, 4, 4);
+    font-size: 20px;
+    padding: 15px 15px;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 36px;
+    font-size: 14px;
+
+}
+
+
+ul li a {
+    color: rgb(97, 48, 48);
+    font-family: arial;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #eaca13;
+    background-color: rgb(122, 44, 44);
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+
+
+.main.heading{
+    font-size: 100px;
+    text-align: center;
+    padding: 130px;
+    color: rgb(172, 73, 73);
+    padding-bottom: 5px;
+    
+}
+.main img{
+display: flex;
+justify-content: center;
+margin-top: -8.5em;
+margin-left: 580px;
+width: 200px;
+padding-bottom: 4px;
+    
+}
+img{
+   text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+body {
+    color: #665544;
+  
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+    .wrapper {
+        margin: 55px;
+}
+    .header {
+    margin: 40px 0px 20px 0px;
+    transition: 4s;
+}
+.header:hover{
+    transform: scale(1.1);
+}
+    .entry {
+    width: 280px;
+    float: left;
+    margin: 10px;
+    height: 198px;
+   
+}
+    figure {
+    display: block;
+    width: 250px;
+    height: 170px;
+    padding: 9px;
+    text-align: left;
+}
+    figure img {
+    width: 270px;
+    height: 170px;
+    border: 10px solid #677962;
+  transition: 1s;
+}
+figure img:hover{
+transform: scale(1.1);
+}
+
+    figcaption {
+   text-align: left;
+    padding-left: 20px;
+    background-color: black;
+    color: #94aa91;
+    background-repeat: no-repeat;
+}
+
+.section.First{
+    display: flex;
+    background-color: #db12ba;
+    height: 305px;
+    margin-bottom: 20px;
+    
+      }
+     .left-img{
+       
+        height: 305px;
+        margin-top: 4.8em;
+        margin-left: 4em;
+     }
+     
+    
+    
+    footer{
+        background-color: #961919;
+    }
+    
+    h1{
+        text-align: 20px;
+        color: aqua;
+    }
+    h4{
+    
+        font-size: 15px;
+        text-align: center;
+    }
+    p{
+        color: rgb(11, 12, 12);
+    }
+    .footerNav{
+        text-align: center;
+        margin: 10px;
+    }
+    h5{
+        margin: 10px;
+        color:white;
+    }
+    h6{
+        font-size: 50px;
+        margin: 10px;
+        background-color: #c08db8;
+    }
+    
